@@ -1,0 +1,41 @@
+{
+  "rules": {
+
+    "users": {
+      ".read": "auth != null",
+      ".write": "auth != null"
+    },
+
+    "$uid": {
+      "email": {
+        ".read": "auth != null && auth.uid == $uid",
+        ".write": "auth != null && auth.uid == $uid"
+      },
+      "groups": {
+        ".read": "auth != null && auth.uid == $uid",
+        "$groupId": {
+          ".write": "auth != null"
+        }
+      }
+    },
+
+    "groups": {
+      "$ownerUid": {
+        "groups": {
+          "$groupId": {
+            ".read": "auth != null && (auth.uid == $ownerUid || root.child(auth.uid).child('groups').child($groupId).val() == $ownerUid)",
+            ".write": "auth != null && (auth.uid == $ownerUid || root.child(auth.uid).child('groups').child($groupId).val() == $ownerUid)"
+          }
+        }
+      }
+    },
+
+    "invitations": {
+      "$receiverUid": {
+        ".read": "auth != null && auth.uid == $receiverUid",
+        ".write": "auth != null"
+      }
+    }
+
+  }
+}

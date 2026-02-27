@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "1063373977821",
+    "firebase_url": "https://pg29-firebase-app-nick1-default-rtdb.firebaseio.com",
+    "project_id": "pg29-firebase-app-nick1",
+    "storage_bucket": "pg29-firebase-app-nick1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1063373977821:android:286e3ccf55cc5121ea8334",
+        "android_client_info": {
+          "package_name": "com.vfs.mytaskapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDORWoSTKTRYYYaseiPp1nkfUfv-hub1BY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1063373977821:android:13e515788db49122ea8334",
+        "android_client_info": {
+          "package_name": "com.vfs.mytaskapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDORWoSTKTRYYYaseiPp1nkfUfv-hub1BY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1063373977821:android:ccc0e860a6520dfbea8334",
+        "android_client_info": {
+          "package_name": "com.vfs.mytaskmanagerapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDORWoSTKTRYYYaseiPp1nkfUfv-hub1BY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
