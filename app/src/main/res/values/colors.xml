@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="accent_blue">#0D84FF</color>
+    <color name="segment_bg">#F0F0F0</color>
+    <color name="segment_text_inactive">#8A8A8E</color>
+
+    <color name="priority_low">#4CAF50</color>
+    <color name="priority_medium">#FFC107</color>
+    <color name="priority_high">#F44336</color>
+</resources>
